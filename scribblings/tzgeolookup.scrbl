@@ -29,9 +29,27 @@ determine the time offset for a time zone.
   time zone} for that location is returned instead. This is a string in the
   format "Etc/UTC+number".
 
+  Timezone boundaries sometimes overlap, and the stored data in this package
+  also contains imprecisions.  It is possible that this function will return
+  the wrong time zone if the location is within a few hunred meters from a
+  timezone boundary.  See also @racket[lookup-timezone*].
+
   @bold{Note:} sometimes location data is provided in "easting" and "northing"
   coordinates, which follow the mathematical X, Y notation.  with "easting"
   being the longitude and "northing" being the latitude.
+
+}
+
+@defproc[(lookup-timezone* (latitude real?) (longitude real?))
+         (listof string?)]{
+
+  Return a list of all time zone names that fall under the location idetified
+  by @racket[latitude] and @racket[longitude].
+
+  Multiple time zones will be returned when the location is in an area where
+  time zones overlap or when the location is within a few hundred meters from
+  a time zone boundary.  The actual time zone will always be in the returned
+  list.
 
 }
 

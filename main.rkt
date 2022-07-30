@@ -1,7 +1,9 @@
 #lang racket/base
 
-;; This file is part of tzgeolookup -- lookup timezones based on GPS coordinates
-;; Copyright (c) 2019 Alex Harsányi <AlexHarsanyi@gmail.com>
+;; SPDX-License-Identifier: LGPL-3.0-or-later
+;;
+;; This file is part of tzgeolookup -- find the timezone for a location based on GPS coordinates
+;; Copyright (c) 2022 Alex Harsányi <AlexHarsanyi@gmail.com>
 ;;
 ;; This program is free software: you can redistribute it and/or modify it
 ;; under the terms of the GNU Lesser General Public License as published by
@@ -18,6 +20,7 @@
 
 (require "private/tzgeolookup.rkt")
 (provide lookup-timezone
+         lookup-timezone*
          clear-timezone-cache)
 
 ;; raco setup --check-pkg-deps --pkgs tzgeolookup

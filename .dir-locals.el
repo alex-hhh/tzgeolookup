@@ -3,6 +3,7 @@
          (indent-tabs-mode         . nil)
          (require-final-newline    . t)
          (show-trailing-whitespace . t)
+         (ah-spdx-license . "LGPL-3.0-or-later")
          (ah-project-headline . "tzgeolookup -- find the timezone for a location based on GPS coordinates")
          (ah-project-license . lgpl)))
  (yaml-mode . ((mode . goto-address)

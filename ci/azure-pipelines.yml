@@ -11,7 +11,7 @@ variables:
   PACKAGE_NAME: "tzgeolookup"
   RACKET_DIR: $(Agent.BuildDirectory)/racket
   PLTSTDERR: 'error warning@optimizer'
-  RACKET_VERSION: 7.4
+  RACKET_VERSION: 8.5-cs
 
 steps:
 

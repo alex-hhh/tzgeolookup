@@ -51,7 +51,7 @@
 
 (define (maybe-open-database)
   (unless db
-    (set! db (sqlite3-connect #:database "./tzgeolookup.db" #:mode 'read-only))))
+    (set! db (sqlite3-connect #:database db-file #:mode 'read-only))))
 
 ;; Fetch the compressed leaf span data for for the level 24 geoid, GEOID-24
 (define (lookup-in-db geoid-24)

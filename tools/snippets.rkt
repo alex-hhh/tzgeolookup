@@ -1,7 +1,9 @@
 #lang racket
+(require tzgeolookup geoid)
 
 (define (test-all)
-  (define test-cases (call-with-input-file "./test-cases.rktd" read))
+  (define test-cases (call-with-input-file "../private/test-cases.rktd" read))
+  (printf "~%*** Asia/Kathmandu and Asia/Urumqi conflict with Asia/Shanghai~%~%")
   (for ([entry (in-list test-cases)])
     (match-define (list lat lon tzname) entry)
     (define result (lookup-timezone* lat lon))

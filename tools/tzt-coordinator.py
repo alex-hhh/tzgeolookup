@@ -1,7 +1,8 @@
+# -*- coding: utf-8 -*-
 # SPDX-License-Identifier: LGPL-3.0-or-later
 # tzt-coordinator.py -- coordinator server for time zone tiling
 #
-# Copyright (c) 2022 Alex Hars·nyi <AlexHarsanyi@gmail.com>
+# Copyright (c) 2022 Alex Hars√°nyi <AlexHarsanyi@gmail.com>
 #
 # This program is free software: you can redistribute it and/or modify it
 # under the terms of the GNU Lesser General Public License as published by

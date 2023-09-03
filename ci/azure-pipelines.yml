@@ -5,13 +5,13 @@
 # YAML schema reference: https://aka.ms/yaml
 
 pool:
-  vmImage: 'Ubuntu-18.04'
+  vmImage: 'Ubuntu-22.04'
 
 variables:
   PACKAGE_NAME: "tzgeolookup"
   RACKET_DIR: $(Agent.BuildDirectory)/racket
   PLTSTDERR: 'error warning@optimizer'
-  RACKET_VERSION: 8.5-cs
+  RACKET_VERSION: 8.10-cs
 
 steps:
 

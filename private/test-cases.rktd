@@ -25,7 +25,7 @@
  ( 47.5886 -122.3382 "America/Los_Angeles")
  ( 58.3168 -134.4397 "America/Juneau")
  ( 21.4381 -158.0493 "Pacific/Honolulu")
- ( 42.7000  -80.0000 "America/Nipigon") ; Was America/Toronto, changed in release 2020a
+ ( 42.7000  -80.0000 "America/Toronto")
  ( 51.0036 -114.0161 "America/Edmonton")
  (-16.4965  -68.1702 "America/La_Paz")
  (-31.9369  115.8453 "Australia/Perth")
@@ -140,7 +140,7 @@
  ( 81.0433  -78.2488 "America/Iqaluit")
  ( 41.4793   -2.7493 "Europe/Madrid")
  ( 16.5041  103.0204 "Asia/Bangkok")
- ( 72.4750 -122.6775 "America/Inuvik")  ; Was America/Yellowknife, changed in release 2020a
+ ( 72.4750 -122.6775 "America/Inuvik")  ; 2020a, changed from America/Yellowknife
  ( 20.2716   28.7996 "Africa/Khartoum")
  (-18.6123  137.4460 "Australia/Darwin")
  ( 57.0724  104.8747 "Asia/Irkutsk")
@@ -169,7 +169,7 @@
  (-17.2287   33.9961 "Africa/Maputo")
  ( 68.3552 -149.0941 "America/Anchorage")
  ( 40.8713   86.7712 "Asia/Urumqi")
- ( 58.9104 -108.2242 "America/Swift_Current") ; Was America/Regina, changed in release 2020a
+ ( 58.9104 -108.2242 "America/Swift_Current") ; 2020a, changed from America/Regina
  ( 63.9166   56.0705 "Europe/Moscow")
  ( 54.7639   41.9429 "Europe/Moscow")
  ( 81.8413  -73.2339 "America/Iqaluit")
@@ -177,7 +177,7 @@
  (  9.5718  -83.1948 "America/Costa_Rica")
  ( 11.9618  -71.7086 "America/Bogota")
  ( 65.5352   74.4143 "Asia/Yekaterinburg")
- ( 50.5575  -93.9996 "America/Rainy_River") ; Was America/Winnipeg, changed in release 2020a
+ ( 50.5575  -93.9996 "America/Winnipeg")
  ( 51.6740  157.0986 "Asia/Kamchatka")
  ( 46.7376  142.8907 "Asia/Sakhalin")
  ( 37.5756  120.5804 "Asia/Shanghai")
@@ -193,7 +193,7 @@
  ( 13.6274   99.6599 "Asia/Bangkok")
  ( -9.6665  -43.4782 "America/Bahia")
  ( 17.5016   -8.0710 "Africa/Nouakchott")
- ( 64.1965 -116.9276 "America/Yellowknife")
+ ( 64.1965 -116.9276 "America/Edmonton") ; 2023b changed from America/Yellowknife
  ( 74.0116  -35.9084 "America/Nuuk")
  ( 28.1819   47.1326 "Asia/Riyadh")
  (-25.8522  139.7641 "Australia/Brisbane")
@@ -213,9 +213,9 @@
  ( 61.0509   79.4277 "Asia/Yekaterinburg")
  ( -5.8263  -38.5891 "America/Fortaleza")
  ( 66.1051  -44.2991 "America/Nuuk")
- ( 61.9720 -122.8406 "America/Inuvik")  ; Was America/Yellowknife, changed in release 2020a
+ ( 61.9720 -122.8406 "America/Inuvik")  ; 2020a, changed from America/Yellowknife
  ( 50.7092   98.1654 "Asia/Ulaanbaatar")
- ( 42.7892  -80.2958 "America/Nipigon") ; Was America/Toronto, changed in release 2020a
+ ( 42.7892  -80.2958 "America/Toronto")
  ( 20.1117   53.8416 "Asia/Riyadh")
  ( 66.7761  148.5291 "Asia/Srednekolymsk")
  ( -5.3391   16.3601 "Africa/Kinshasa")
@@ -270,7 +270,7 @@
  ( 62.6169  103.2882 "Asia/Krasnoyarsk")
  ( -2.6981  -73.2412 "America/Lima")
  ( -4.9274  -65.3226 "America/Manaus")
- ( 71.1648 -117.7618 "America/Yellowknife")
+ ( 71.1648 -117.7618 "America/Edmonton") ; 2023c, changed from America/Yellowknife
  ( 58.5594   34.6095 "Europe/Moscow")
  ( 55.2956   32.0908 "Europe/Moscow")
  (-15.3693   36.5350 "Africa/Maputo")
@@ -281,9 +281,9 @@
  (-22.7467  130.6468 "Australia/Darwin")
  ( 63.8349  152.5360 "Asia/Magadan")
  (-20.7583  120.7570 "Australia/Perth")
- ( 62.7709 -118.4994 "America/Yellowknife")
+ ( 62.7709 -118.4994 "America/Edmonton") ; 2023c changed from America/Yellowknife
  ( 21.2630   17.5662 "Africa/Ndjamena")
- ( 63.7417 -115.2235 "America/Yellowknife")
+ ( 63.7417 -115.2235 "America/Edmonton") ; 2023c changed from America/Yellowknife
  ( 81.6018  -59.8101 "America/Nuuk")
  (-38.1635  -57.7626 "America/Argentina/Buenos_Aires")
  ( 36.1970 -107.8392 "America/Denver")
@@ -296,13 +296,13 @@
  ( 23.4918   -4.6733 "Africa/Bamako")
  ( 23.4670   42.9883 "Asia/Riyadh")
  ( 64.0877   20.1457 "Europe/Stockholm")
- ( 73.5927 -115.9105 "America/Yellowknife")
- ( 51.8279  -84.3882 "America/Nipigon") ; Was America/Toronto, changed in release 2020a
- ( 56.5034 -108.7968 "America/Swift_Current") ; Was America/Regina, changed in release 2020a
+ ( 73.5927 -115.9105 "America/Edmonton") ; 2023c changed from America/Yellowknife
+ ( 51.8279  -84.3882 "America/Toronto")
+ ( 56.5034 -108.7968 "America/Swift_Current") ; 2020a, changed from America/Regina
  ( 55.2477   64.4429 "Asia/Yekaterinburg")
  ( 79.9054  -80.5558 "America/Iqaluit")
  ( 68.1178  137.7878 "Asia/Vladivostok")
- ( 75.4235  140.6829 "Asia/Vladivostok")
+ ( 75.4235  140.6829 "Asia/Yakutsk")    ; 2023c, changed from Asia/Vladivostok
  ( 25.1553   30.5491 "Africa/Cairo")
  ( 57.5382   69.7678 "Asia/Yekaterinburg")
  ( 19.2966   13.2915 "Africa/Niamey")
@@ -314,7 +314,7 @@
  ( 60.5414  102.2830 "Asia/Krasnoyarsk")
  ( 78.2319  -35.9009 "America/Nuuk")
  ( 50.4043   20.1115 "Europe/Warsaw")
- ( 67.7007 -139.1173 "America/Dawson")  ; Was America/Whitehorse, changed in release 2020a
+ ( 67.7007 -139.1173 "America/Dawson")  ; 2020a, changed from America/Whitehorse
  ( 46.7656   96.6875 "Asia/Hovd")
  (-22.5825   29.4276 "Africa/Johannesburg")
  ( 59.9827   92.8622 "Asia/Krasnoyarsk")
@@ -359,7 +359,7 @@
  ( 15.8589   24.5199 "Africa/Khartoum")
  ( 56.0054   60.8903 "Asia/Yekaterinburg")
  ( 61.4232 -131.4265 "America/Whitehorse")
- ( 60.1848 -122.0054 "America/Inuvik")  ; Was America/Yellowknife, changed in release 2020a
+ ( 60.1848 -122.0054 "America/Inuvik")  ; 2020a, changed from America/Yellowknife
  ( 51.5442 -105.1728 "America/Regina")
  ( 43.8244  -96.6180 "America/Chicago")
  ( 62.6568   77.4446 "Asia/Yekaterinburg")
@@ -378,7 +378,7 @@
  ( 53.0989   40.2981 "Europe/Moscow")
  ( 46.0498 -119.7057 "America/Los_Angeles")
  ( 33.4187   40.2683 "Asia/Baghdad")
- ( 46.6549   33.7897 "Europe/Kiev")
+ ( 46.6549   33.7897 "Europe/Kyiv")
  ( 67.5675  115.0571 "Asia/Yakutsk")
  ( 54.2140   45.7523 "Europe/Moscow")
  (-15.4168   27.5488 "Africa/Lusaka")
@@ -470,7 +470,7 @@
  (-11.9026   19.1156 "Africa/Luanda")
  (-19.0649  -52.4491 "America/Campo_Grande")
  ( 61.3513 -148.3128 "America/Anchorage")
- ( 73.8546 -120.2774 "America/Inuvik")  ; Was America/Yellowknife, changed in release 2020a
+ ( 73.8546 -120.2774 "America/Inuvik")  ; 2020a, changed from America/Yellowknife
  ( 69.4978  156.2309 "Asia/Srednekolymsk")
  ( 23.2705   87.0558 "Asia/Kolkata")
  ( 15.9273  -92.0672 "America/Mexico_City")
@@ -497,7 +497,7 @@
  ( 58.7754 -120.0701 "America/Fort_Nelson")
  ( 60.8634 -131.1674 "America/Whitehorse")
  ( -2.3241  -65.9156 "America/Manaus")
- ( 51.2849   31.5151 "Europe/Kiev")
+ ( 51.2849   31.5151 "Europe/Kyiv")
  ( -0.6626   17.8965 "Africa/Kinshasa")
  ( 73.2245  -96.8935 "America/Rankin_Inlet")
  ( 32.3177   46.9431 "Asia/Baghdad")
@@ -529,7 +529,7 @@
  ( 31.2644   21.7824 "Africa/Tripoli")
  ( 57.2329   94.6034 "Asia/Krasnoyarsk")
  ( 12.6608  -87.2430 "America/Managua")
- ( 63.4155 -109.7556 "America/Yellowknife")
+ ( 63.4155 -109.7556 "America/Edmonton") ; 2023c, changed from America/Yellowknife
  ( 41.8814 -113.9326 "America/Denver")
  (  8.1392   80.1801 "Asia/Colombo")
  ( 53.9195  107.1539 "Asia/Irkutsk")
@@ -553,7 +553,7 @@
  ( 49.3192   80.5804 "Asia/Almaty")
  (-79.0132   81.3960 "Antarctica/Davis")
  (-73.0967  106.9870 "Antarctica/Vostok")
- ( 77.0111 -120.2982 "America/Inuvik") ; Was America/Yellowknife, changed in release 2020a
+ ( 77.0111 -120.2982 "America/Inuvik") ; 2020a, changed from America/Yellowknife
  (-73.4287    5.4364 "Antarctica/Troll")
  (-66.5058   64.0729 "Antarctica/Mawson")
  ( 39.0869 -107.1701 "America/Denver")
@@ -593,7 +593,7 @@
  ( 68.4963  114.0498 "Asia/Yakutsk")
  ( 67.4410  -34.9892 "America/Nuuk")
  ( 73.0302  -99.5839 "America/Cambridge_Bay")
- ( 70.5563 -120.2147 "America/Inuvik") ; Was America/Yellowknife, changed in release 2020a
+ ( 70.5563 -120.2147 "America/Inuvik") ; 2020a, changed from America/Yellowknife
  ( 65.5479 -144.2437 "America/Anchorage")
  (-85.8659   45.0898 "Antarctica/Syowa")
  ( 74.7574  -80.1124 "America/Iqaluit")
@@ -607,7 +607,7 @@
  ( 23.8292   70.2438 "Asia/Kolkata")
  ( 29.5603   89.4990 "Asia/Shanghai")
  (-84.1417   47.7183 "Antarctica/Syowa")
- ( 67.9214 -131.6255 "America/Inuvik"); Was America/Yellowknife, changed in release 2020a
+ ( 67.9214 -131.6255 "America/Inuvik"); 2020a, changed from America/Yellowknife
  ( 48.8324  128.5311 "Asia/Shanghai")
  ( 25.7790   74.2823 "Asia/Kolkata")
  (-86.0345 -170.6664 "Antarctica/McMurdo")
@@ -671,7 +671,7 @@
  (-29.5255  -66.7115 "America/Argentina/La_Rioja")
  ( 53.0595  -63.1278 "America/Goose_Bay")
  ( 27.4545   23.7945 "Africa/Tripoli")
- ( 70.6062 -116.7796 "America/Yellowknife")
+ ( 70.6062 -116.7796 "America/Edmonton") ; 2023c, changed from America/Yellowknife
  (-78.0266   89.5463 "Antarctica/Vostok")
  (-80.8097   12.1054 "Antarctica/Troll")
  (-70.7923   71.7077 "Antarctica/Mawson")
@@ -748,7 +748,7 @@
  ( 57.7599   95.4718 "Asia/Krasnoyarsk")
  (-69.4406   39.3122 "Antarctica/Syowa")
  (  4.4540   46.1925 "Africa/Mogadishu")
- ( 46.3330   35.6490 "Europe/Zaporozhye")
+ ( 46.3330   35.6490 "Europe/Kyiv")
  ( 18.0784   94.5354 "Asia/Yangon")
  ( 42.0192   14.5324 "Europe/Rome")
  ( -0.5745  126.2830 "Asia/Jayapura")
@@ -756,7 +756,7 @@
  ( 35.9614  -91.1373 "America/Chicago")
  ( 30.5783  102.8370 "Asia/Shanghai")
  ( 67.0065 -102.5618 "America/Cambridge_Bay")
- ( 64.0164 -121.9673 "America/Inuvik") ; Was America/Yellowknife, changed in release 2020a
+ ( 64.0164 -121.9673 "America/Inuvik") ; 2020a, changed from America/Yellowknife
  (  6.7059  118.1856 "Asia/Manila")
  (-87.7733  -48.0000 "Antarctica/McMurdo")
  ( 37.6582   25.3762 "Etc/GMT-2")   ; Was Europe/Athens, not sure why it changed, but the location is out at sea
@@ -777,7 +777,7 @@
  ( 81.3302   60.4397 "Europe/Moscow")
  ( 44.9839   71.9443 "Asia/Almaty")
  (-70.6835    9.4712 "Antarctica/Troll")
- ( 77.4281  -22.5341 "America/Nuuk")
+ ( 77.4281  -22.5341 "America/Danmarkshavn") ; 2023c, changed from America/Nuuk
  (-21.5885  -48.6123 "America/Sao_Paulo")
  ( -5.6724  106.1960 "Asia/Jakarta")
  ( -8.7672  -68.7273 "America/Eirunepe")
@@ -839,7 +839,7 @@
  ( 81.1039   65.0911 "Europe/Moscow")
  ( 57.1634  -90.2668 "America/Rankin_Inlet")
  ( 77.6601  -70.1981 "America/Thule")
- ( 81.0588  -66.5886 "America/Pangnirtung")
+ ( 81.0588  -66.5886 "America/Iqaluit")
  ( 68.8512  171.3592 "Asia/Anadyr")
  ( 58.6908  102.4371 "Asia/Krasnoyarsk")
  (-88.2361   97.1364 "Antarctica/McMurdo")
@@ -984,7 +984,7 @@
  ( 77.4624  -73.2223 "America/Thule")
  ( 59.8796   14.3990 "Europe/Stockholm")
  ( 44.8390  -92.3730 "America/Chicago")
- ( 62.0601 -104.1887 "America/Yellowknife")
+ ( 62.0601 -104.1887 "America/Edmonton") ; 2023c, changed from America/Yellowknife
  ( 42.2095   -2.4099 "Europe/Madrid")
  (-88.0545  -95.0714 "Antarctica/McMurdo")
  ( -5.9429  -43.0070 "America/Fortaleza")
@@ -1014,14 +1014,14 @@
  (-87.5072 -161.3385 "Antarctica/McMurdo")
  ( 66.0441  -96.9490 "America/Rankin_Inlet")
  ( 56.4369   90.9330 "Asia/Krasnoyarsk")
- ( 67.4068 -123.1871 "America/Inuvik") ; Was America/Yellowknife, changed in release 2020a
+ ( 67.4068 -123.1871 "America/Inuvik") ; 2020a, changed from America/Yellowknife
  ( 22.3989  101.9252 "Asia/Vientiane")
  (-87.5659   14.7744 "Antarctica/McMurdo")
- ( 55.6859  -86.2914 "America/Nipigon") ; Was America/Toronto, changed in release 2020a
+ ( 55.6859  -86.2914 "America/Toronto")
  (-89.5274 -161.9818 "Antarctica/McMurdo")
  ( 14.0525   -0.5529 "Africa/Ouagadougou")
  (-19.9091   30.9270 "Africa/Harare")
- ( 54.7107  -87.6633 "America/Nipigon") ; Was America/Toronto, changed in release 2020a
+ ( 54.7107  -87.6633 "America/Toronto")
  ( -6.4873  -45.3957 "America/Fortaleza")
  (-19.9700  -47.6740 "America/Sao_Paulo")
  ( 70.6514  -51.6690 "America/Nuuk")
@@ -1060,7 +1060,7 @@
  (34.104255  -118.4055591 "America/Los_Angeles")
  (55.743749  37.6207923 "Europe/Moscow")
  (39.194991  -106.8294024 "America/Denver")
- (50.438114  30.5179595 "Europe/Kiev")
+ (50.438114  30.5179595 "Europe/Kyiv")
  (12.936873  77.6909136 "Asia/Kolkata")
  (38.889144  -77.0398235 "America/New_York")
  (19.0 -135 "Etc/GMT+9")                ; pacific ocean
